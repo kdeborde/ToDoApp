@@ -5,10 +5,8 @@ namespace ToDoList
     {
         static void Main(string[] args)
         {
-            var runApp = true;
-
             ToDoList todo = new ToDoList();
-            while (runApp)
+            while (true)
             {
                 Console.WriteLine("\nPlease enter a number corresponding to the action below or 'q' to quit.");
                 Console.WriteLine("1.) Add task");

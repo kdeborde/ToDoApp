@@ -54,13 +54,6 @@ namespace ToDoList
         public string PrintTasks()
         {
             string? taskString;
-            //Console.WriteLine("Tasks:");
-            //for (int i = 0; i < _tasks.Count; i++)
-            //{
-            //    Console.WriteLine($"Task {i + 1}: {_tasks[i]}");
-            //}
-            //Console.WriteLine("\nPress any key to continue...\n");
-            //Console.ReadKey();
 
             taskString = $"Task List: \n[{string.Join(", ", _tasks)}]\n";
 
